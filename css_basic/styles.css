@@ -1,0 +1,21 @@
+/* Make the entire body a vertical flex container */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto; 
+}
+
+
+aside {
+  flex: 1;
+  overflow-y: auto; 
+}
