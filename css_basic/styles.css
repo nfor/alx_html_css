@@ -1,5 +1,6 @@
 /* Make the entire body a vertical flex container */
 body {
+    background-color:ghostwhite;
   display: flex;
   flex-direction: column;
 }
