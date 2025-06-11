@@ -197,10 +197,55 @@ html, body {
   color:#C271FF;
   font-size: 12px;
 }
-
-
-
 /* This is for the tutorial section ends here */
+
+/*This is syling for FREE MEMBERSHIP*/
+.membership {
+  text-align: center;
+  padding: 50px 60px;
+  background-color: #071629;
+  color: white;
+}
+
+.membership h2 {
+  margin-bottom: 40px;
+}
+
+.plans {
+  width: 100%;
+  overflow: hidden; /* clears the floats */
+  text-align: center;
+}
+
+.plan {
+  width: 23%;
+  float: left;
+  margin: 1%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.plan h3 {
+  margin: 10px 0; 
+  font-weight: lighter;
+}
+
+.plan p {
+  font-size: 14px;
+   padding-bottom: 70px;
+}
+
+.join-btn {
+  background-color: #C271FF;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-weight: lighter;
+}
+
+/* This is syling for FREE MEMBERSHIP ends here */
 
 blockquote:before, blockquote:after,
 q:before, q:after {
