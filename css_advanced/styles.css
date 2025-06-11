@@ -337,3 +337,40 @@ q:before, q:after {
     background-image: url('./images/Object.png');
     background-repeat: no-repeat;
 }
+
+/* This is for the footer section */
+.footer {
+  background-color: #030a14;
+  padding: 40px 20px;
+  color: #fff;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left img {
+  /* No styling applied, as requested */
+}
+
+.footer-right i {
+  margin-left: 20px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  color: grey;
+  font-size: 0.8rem;
+  margin-top: 30px;
+}
+/* This is for the footer section ends here */
