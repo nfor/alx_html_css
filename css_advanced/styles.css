@@ -97,6 +97,7 @@ html, body {
 .quote-text h3 {
   margin: 0;
   font-size: 18px;
+  text-align: left;
   color: rgb(255, 255, 255);
 }
 
@@ -109,6 +110,97 @@ html, body {
 }
 
 /* This is for the QOUTE Section ends here */
+
+/*This is for the tutorial section*/
+.tutorials {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.tutorials h2 {
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.card {
+  width: 250px;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 0; /* no rounded corners */
+}
+
+.img-wrapper img:first-child {
+  width: 100%;
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  text-align: left;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #C271FF;
+  font-weight:normal;
+  font-size: 14px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+}
+
+.rating i {
+  color: #C271FF;
+}
+
+.rating i.grey {
+  color: rgb(231, 231, 231);
+}
+
+.duration {
+  margin-left: auto;
+  color:#C271FF;
+  font-size: 12px;
+}
+
+
+
+/* This is for the tutorial section ends here */
 
 blockquote:before, blockquote:after,
 q:before, q:after {
