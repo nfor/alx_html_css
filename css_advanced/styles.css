@@ -246,6 +246,50 @@ html, body {
 }
 
 /* This is syling for FREE MEMBERSHIP ends here */
+/*This is for FAQ section*/
+.faq-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.faq-title {
+  font-size: 4em;
+  margin-bottom: 40px;
+  font-weight: lighter;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.faq-column {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  width: 45%;
+}
+
+.faq-item {
+  padding: 20px;
+  text-align: left;
+}
+
+.faq-question {
+  margin-bottom: 10px;
+}
+
+.faq-answer {
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+
+/* This is for FAQ section ends here */
 
 blockquote:before, blockquote:after,
 q:before, q:after {
